@@ -1,0 +1,3084 @@
+{
+  "phase": "A",
+  "title": "Pilot V2 — clinician-only blinded review",
+  "cases": [
+    {
+      "case_code": "CASE_001",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "67.59"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "23.8"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "80.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "139.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "81.8"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "9.1"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "280.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "79.0"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "12.5"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "18.0"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "155.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "36.0"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "5.32"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_002",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "60.11"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "23.44"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "24.8",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "98.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "4.74",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "0.1"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Female"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "68.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "1.0"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "95.5"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "8.9"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "135.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "3.8",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "102.0"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "13.4"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "20.0"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "178.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "139.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "37.0"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "5.0"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": 778.0,
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_003",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "53.6"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "28.6"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "23.6",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "93.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "4.05",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "0.18"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "81.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "0.85"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "84.4"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "9.6"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "109.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "5.8",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "78.0"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "12.8"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "19.0"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "171.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "138.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "36.1"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "3.6"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": 1168.0,
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_004",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "80.54"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "27.34"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "78.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "23.86",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "0.07"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Female"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "91.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "1.9"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "87.2"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "8.8"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "250.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "4.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "84.0"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "14.9"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "20.0"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "124.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "137.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "37.0"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "7.31"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": 182.0,
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_005",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "45.03"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "24.5"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "30.8",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "101.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "6.2",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "0.47"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "131.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "1.57"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "101.8"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "10.5"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "179.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "6.5",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "99.0"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "14.8"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "20.0"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "180.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "127.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "37.0"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "8.35"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": 856.0,
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_006",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "48.82"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "36.6"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "13.4",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "93.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "32.89",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "0.62"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "158.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "2.66"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "74.2"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "10.3"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "248.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "3.9",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "65.0"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "11.7"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "20.0"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "194.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "140.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "37.0"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "10.7"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": 209.0,
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_007",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "60.83"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "30.04"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "19.3",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "6.02",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "0.25"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Female"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "104.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "1.62"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "77.4"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "10.5"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "170.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "4.8",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "141.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "5.0"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": 635.0,
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_008",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "62.19"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "33.98"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "18.8",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "65.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "7.42",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "0.03"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Female"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "111.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "0.7"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "84.5"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "11.8"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "241.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "4.4",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "13.5"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "112.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "124.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "36.0"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "7.9"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": 530.0,
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_009",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "43.1"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "23.4"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "61.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "80.0"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "16.0"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "112.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "37.0"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_010",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "41.43"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "24.4"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_011",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "77.81"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "22.4"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "32.7",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "102.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "5.17",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "95.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "86.2"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "8.4"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "191.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "5.6",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "68.0"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "15.7"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "20.0"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "182.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "142.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "37.2"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "12.47"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": 841.0,
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_012",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "56.96"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "20.7"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "28.4",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "64.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "3.34",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "0.2"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "105.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "1.0"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "74.4"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "9.7"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "185.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "6.5",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "77.0"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "16.9"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "20.0"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "102.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "36.3"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "5.0"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": 1348.0,
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_013",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "49.53"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "27.6"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "24.1",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "7.07",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "122.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "87.4"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "10.5"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "193.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "6.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "17.7"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "132.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "10.1"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": 750.0,
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_014",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "63.2"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "29.55"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "100.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "78.0"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "12.0"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "128.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "36.0"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_015",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "18.42"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_016",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "68.85"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "31.6"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "5.7",
+          "measurement_timing": "34 days before index",
+          "distinct_measurement_dates": 2,
+          "chronology_note": "Multiple measurement dates spanned at least 90 days; this display does not by itself establish persistent abnormality or CKD."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "65.0",
+          "measurement_timing": "541 days before index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "93.88",
+          "measurement_timing": "34 days before index",
+          "distinct_measurement_dates": 2,
+          "chronology_note": "Multiple measurement dates spanned at least 90 days; this display does not by itself establish persistent abnormality or CKD."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "0.06"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "140.0",
+          "measurement_timing": "34 days before index",
+          "distinct_measurement_dates": 2,
+          "chronology_note": "Multiple measurement dates spanned at least 90 days; this display does not by itself establish persistent abnormality or CKD."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "1.53"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "87.1"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "8.5"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "294.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "3.9",
+          "measurement_timing": "34 days before index",
+          "distinct_measurement_dates": 2,
+          "chronology_note": "Multiple measurement dates spanned at least 90 days; this display does not by itself establish persistent abnormality or CKD."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "88.0"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "11.3"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "24.0"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "127.0",
+          "measurement_timing": "541 days before index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "140.0",
+          "measurement_timing": "34 days before index",
+          "distinct_measurement_dates": 2,
+          "chronology_note": "Multiple measurement dates spanned at least 90 days; this display does not by itself establish persistent abnormality or CKD."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "38.3"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "4.7"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": 76.0,
+          "measurement_timing": "34 days before index",
+          "distinct_measurement_dates": 2,
+          "chronology_note": "Multiple measurement dates spanned at least 90 days; this display does not by itself establish persistent abnormality or CKD.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": [
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "measurement_name": "Derived eGFR",
+          "unit": "mL/min/1.73 m2",
+          "points": [
+            {
+              "relative_day": -541.3,
+              "value": 66.19
+            },
+            {
+              "relative_day": -34.0,
+              "value": 93.88
+            }
+          ]
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "measurement_name": "Serum creatinine",
+          "unit": "umol/L",
+          "points": [
+            {
+              "relative_day": -541.3,
+              "value": 106.0
+            },
+            {
+              "relative_day": -34.0,
+              "value": 76.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_code": "CASE_017",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "55.41"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "30.8"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "4.0",
+          "measurement_timing": "227 days before index",
+          "distinct_measurement_dates": 2,
+          "chronology_note": "Multiple measurement dates spanned at least 90 days; this display does not by itself establish persistent abnormality or CKD."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "91.0",
+          "measurement_timing": "22 days before index",
+          "distinct_measurement_dates": 3,
+          "chronology_note": "Multiple measurement dates spanned at least 90 days; this display does not by itself establish persistent abnormality or CKD."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "95.99",
+          "measurement_timing": "227 days before index",
+          "distinct_measurement_dates": 2,
+          "chronology_note": "Multiple measurement dates spanned at least 90 days; this display does not by itself establish persistent abnormality or CKD."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "0.6"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "150.0",
+          "measurement_timing": "227 days before index",
+          "distinct_measurement_dates": 2,
+          "chronology_note": "Multiple measurement dates spanned at least 90 days; this display does not by itself establish persistent abnormality or CKD."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "2.6"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "101.0"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "8.2"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "258.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "4.8",
+          "measurement_timing": "388 days before index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "75.0"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "9.6"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "20.0"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "149.0",
+          "measurement_timing": "22 days before index",
+          "distinct_measurement_dates": 3,
+          "chronology_note": "Multiple measurement dates spanned at least 90 days; this display does not by itself establish persistent abnormality or CKD."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "140.0",
+          "measurement_timing": "388 days before index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "37.0"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "5.2"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": 83.0,
+          "measurement_timing": "227 days before index",
+          "distinct_measurement_dates": 2,
+          "chronology_note": "Multiple measurement dates spanned at least 90 days; this display does not by itself establish persistent abnormality or CKD.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": [
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "measurement_name": "Derived eGFR",
+          "unit": "mL/min/1.73 m2",
+          "points": [
+            {
+              "relative_day": -387.9,
+              "value": 101.88
+            },
+            {
+              "relative_day": -226.9,
+              "value": 95.99
+            }
+          ]
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "measurement_name": "Serum creatinine",
+          "unit": "umol/L",
+          "points": [
+            {
+              "relative_day": -387.9,
+              "value": 78.0
+            },
+            {
+              "relative_day": -226.9,
+              "value": 83.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_code": "CASE_018",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "98.54"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "22.0"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "5.0",
+          "measurement_timing": "118 days before index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "73.27",
+          "measurement_timing": "118 days before index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "0.3"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "138.0",
+          "measurement_timing": "118 days before index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "2.01"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "91.2"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "11.6"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "206.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "4.5",
+          "measurement_timing": "118 days before index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "16.1"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "138.0",
+          "measurement_timing": "118 days before index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "5.32"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": 83.0,
+          "measurement_timing": "118 days before index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_019",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "49.62"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Male"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "Not measured"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    },
+    {
+      "case_code": "CASE_020",
+      "clinical_data": [
+        {
+          "predictor": "AGE_AT_INDEX",
+          "clinical_field": "Age at index (years)",
+          "displayed_value": "49.21"
+        },
+        {
+          "predictor": "BMI_MODEL",
+          "clinical_field": "BMI (kg/m2)",
+          "displayed_value": "23.44"
+        },
+        {
+          "predictor": "BUN_FINAL_MMOL_L",
+          "clinical_field": "BUN (mmol/L)",
+          "displayed_value": "5.2",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DBP",
+          "clinical_field": "Diastolic blood pressure (mmHg)",
+          "displayed_value": "80.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "DERIVED_EGFR_CKD_EPI_2021",
+          "clinical_field": "Derived eGFR (mL/min/1.73 m2)",
+          "displayed_value": "101.62",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "EOSINOPHILS_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute eosinophils (10^9/L)",
+          "displayed_value": "0.1"
+        },
+        {
+          "predictor": "GENDER",
+          "clinical_field": "Gender",
+          "displayed_value": "Female"
+        },
+        {
+          "predictor": "HEMOGLOBIN_MODEL_G_L",
+          "clinical_field": "Hemoglobin (g/L)",
+          "displayed_value": "140.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "LYMPHOCYTES_ABSOLUTE_MODEL_10E9_L",
+          "clinical_field": "Absolute lymphocytes (10^9/L)",
+          "displayed_value": "2.1"
+        },
+        {
+          "predictor": "MCV_MODEL_FL",
+          "clinical_field": "MCV (fL)",
+          "displayed_value": "90.2"
+        },
+        {
+          "predictor": "MPV_MODEL_FL",
+          "clinical_field": "MPV (fL)",
+          "displayed_value": "9.7"
+        },
+        {
+          "predictor": "NATIONALITY_GROUP",
+          "clinical_field": "Nationality group",
+          "displayed_value": "Non-Saudi"
+        },
+        {
+          "predictor": "PLATELETS_MODEL_10E9_L",
+          "clinical_field": "Platelets (10^9/L)",
+          "displayed_value": "301.0"
+        },
+        {
+          "predictor": "POTASSIUM_FINAL_MMOL_L",
+          "clinical_field": "Potassium (mmol/L)",
+          "displayed_value": "4.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "PULSE_FINAL",
+          "clinical_field": "Pulse (beats/min)",
+          "displayed_value": "74.0"
+        },
+        {
+          "predictor": "RDW_CV_MODEL_PERCENT",
+          "clinical_field": "RDW-CV (%)",
+          "displayed_value": "13.5"
+        },
+        {
+          "predictor": "RESPIRATION_FINAL",
+          "clinical_field": "Respiratory rate (breaths/min)",
+          "displayed_value": "20.0"
+        },
+        {
+          "predictor": "SBP",
+          "clinical_field": "Systolic blood pressure (mmHg)",
+          "displayed_value": "127.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "SODIUM_FINAL_MMOL_L",
+          "clinical_field": "Sodium (mmol/L)",
+          "displayed_value": "139.0",
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone."
+        },
+        {
+          "predictor": "TEMPERATURE_FINAL",
+          "clinical_field": "Temperature",
+          "displayed_value": "37.0"
+        },
+        {
+          "predictor": "WBC_MODEL_10E9_L",
+          "clinical_field": "WBC (10^9/L)",
+          "displayed_value": "8.6"
+        },
+        {
+          "predictor": "CREATININE_FINAL_UMOL_L",
+          "clinical_field": "Serum creatinine (umol/L)",
+          "displayed_value": 64.0,
+          "measurement_timing": "At index",
+          "distinct_measurement_dates": 1,
+          "chronology_note": "One measurement date was available; chronicity cannot be established from this field alone.",
+          "used_by_locked_model": false
+        },
+        {
+          "predictor": "UACR_FINAL_MG_MMOL",
+          "clinical_field": "Urinary albumin-to-creatinine ratio (mg/mmol)",
+          "displayed_value": "Not measured",
+          "measurement_timing": "No usable measurement in the original observation window",
+          "distinct_measurement_dates": 0,
+          "chronology_note": "No usable measurement was available in the original observation window.",
+          "used_by_locked_model": false
+        }
+      ],
+      "renal_trajectories": []
+    }
+  ],
+  "model_score_visible": false,
+  "threshold_tier_visible": false,
+  "shap_visible": false,
+  "observed_ckd_label_visible": false,
+  "patient_identifier_visible": false,
+  "instructions": [
+    "Review the available clinical information independently.",
+    "The primary question is whether additional renal review is warranted; this is not a CKD diagnosis.",
+    "Additional renal review may include chart review, repeat/additional renal testing, or nephrology referral.",
+    "Not measured means unavailable in the original observation window and must not be interpreted as normal.",
+    "Relative timing is shown without direct dates; measurements displayed together may come from different encounters.",
+    "Record information sufficiency separately from the binary renal-review recommendation.",
+    "Do not discuss cases with final study reviewers before their ratings are locked."
+  ],
+  "materials_version": "pilot-v2",
+  "final_data_collection_authorized": false
+}
