@@ -27,8 +27,9 @@ jobs:
       - run: npm run build
       - name: Make framework assets compatible with GitHub Pages
         run: |
-          mv dist/client/_next dist/client/next-assets
-          find dist/client -type f \( -name '*.html' -o -name '*.rsc' -o -name '*.js' -o -name '*.css' -o -name '*.json' -o -name '_headers' \) -print0 | xargs -0 sed -i 's|/_next/|/next-assets/|g'
+          mv dist/client/CKD-Hidden-Risk-Clinician-Review-Study/_next dist/client/next-assets
+          rm -rf dist/client/CKD-Hidden-Risk-Clinician-Review-Study
+          find dist/client -type f \( -name '*.html' -o -name '*.rsc' -o -name '*.js' -o -name '*.css' -o -name '*.json' -o -name '_headers' \) -print0 | xargs -0 sed -i 's|/CKD-Hidden-Risk-Clinician-Review-Study/_next/|/CKD-Hidden-Risk-Clinician-Review-Study/next-assets/|g'
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
